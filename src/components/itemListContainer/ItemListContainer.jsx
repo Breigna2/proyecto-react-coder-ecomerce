@@ -1,10 +1,23 @@
 import React from 'react'
+import { useState } from 'react'
+
+//import CustomButton from "../customButton/CustomButton"
 
 const ItemListContainer = ({greeting}) => {
+
+  const [ isDark , setIsDark ] = useState(false)
+
+  const toogleMode = ()=>{
+    setIsDark(!isDark)
+
+}
+
   return (
-    <div>
+    <>
         <h1>{greeting}</h1>
-    </div>
+        {/*<CustomButton texto={"sumar"}/>*/}
+        <button onClick={toogleMode}>cambiar</button>
+    </>
   )
 }
 
