@@ -1,9 +1,9 @@
 import { useState } from "react"
 import CustomButton from "../customButton/CustomButton"
 
-const Counter = () => {
+const Counter = ({stock, initial, onAdd}) => {
 
-    const [counter, setCounter] = useState(0)
+    const [counter, setCounter] = useState(initial)
 
   return (
     <div>
