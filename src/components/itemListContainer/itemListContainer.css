@@ -1,5 +1,13 @@
-.container-items{
+.container-items-light{
     width: 100%;
     height: 50vh;
     background-color: rgb(236, 207, 15);
+    color:black;
+}
+
+.container-items-dark{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(233, 115, 115);
+    color:white;
 }

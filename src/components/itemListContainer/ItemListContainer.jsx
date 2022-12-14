@@ -15,7 +15,7 @@ const ItemListContainer = ({greeting}) => {
 }
 
   return (
-    <div className = 'container-items'>
+    <div className = {isDark ? "container-items-dark" : "container-items-light"} >
         <h1>{greeting}</h1>
         {/*<CustomButton texto={"sumar"}/>*/}
         <button onClick={tooggleMode}>{isDark ? "cambiar a modo claro" : "cambiar a modo oscuro"}</button>
