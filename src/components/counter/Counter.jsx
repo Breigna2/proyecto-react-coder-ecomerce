@@ -16,4 +16,4 @@ const Counter = ({stock, initial, onAdd}) => {
   )
 }
 
-export default Counter
+export default Counter 
