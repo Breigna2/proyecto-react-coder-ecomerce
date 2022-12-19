@@ -61,7 +61,7 @@ console.log(items)
           items.map((element)=>{
             return (<div key={element.name}>
               <h2>
-               {element.name} 
+              {element.name} 
               </h2>
               <h3>
               {element.price}
